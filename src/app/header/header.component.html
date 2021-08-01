@@ -1,0 +1,701 @@
+<div style="width: 100%">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar1" style="z-index: 99;">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a routerLink="home">
+          <img src="assets\images\myntra_logo1.png" alt="myntra" style="height: 30px;">
+        </a>
+      </ul>
+
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item dropdown headdropdown1">
+          <a class="nav-link dropdown-toggle navtext" routerLink="men" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;">
+            MEN
+          </a>
+          <ul class="dropdown-menu headdown-menu1" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row" style="font-size: small;">
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="color: red; font-weight: bold; font-size: x-small;">Topwear</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;" value="t-shirt" (click)="onClickMe('t-shirt')">T-Shirts</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;" value="shirt" (click)="onClickMe('shirt')">Casual Shirts</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;" value="shirt">Formal Shirts</a>
+                <hr>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="color: red; font-weight: bold; font-size: x-small;">Indian & Festive Wear</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Kurtas & Kurta Sets</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'style="font-size: x-small;">Sherwanis</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Dhotis</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Bottomwear</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Jeans</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="font-size: x-small;">Trousers</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Shorts</a>
+                <hr>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Innerwear</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Briefs &
+                  Trunks</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Boxers</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Vests</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Sports & Active
+                  Wear</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Shoes &
+                  Sandals</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Track
+                  Pants
+                  & Shorts</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Sports
+                  Accessories</a>
+                <hr>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Gadgets</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Fitness
+                  Gadgets</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="font-size: x-small;">Headphones</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="font-size: x-small;">Speakers</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Footwear</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Shoes</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="font-size: x-small;">Sneakers</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Sandals &
+                  Floaters</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Socks</a>
+                <hr>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Personal Care & Grooming</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Sunglasses & Frames</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Watches</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Fashion Accessories</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Perfumes &
+                  Body Mists</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="font-size: x-small;">Wallets</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Caps &
+                  Hats</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Belts</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active' style="font-size: x-small;">Rings &
+                  Wristwear</a>
+                <hr>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Luggages & Trolleys</a>
+                <a class="dropdown-item" routerLink="men" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Bags & Backpacks</a>
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown headdropdown1">
+          <a class="nav-link dropdown-toggle navtext" routerLink="women" id="navbarDropdownMenuLink" role="button"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;">
+            WOMEN
+          </a>
+          <ul class="dropdown-menu headdown-menu1" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row" style="font-size: small;">
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="#" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Indian & Fusion Wear</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Kurtas &
+                  Suits</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Skirts &
+                  Palazzos</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Sarees</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Leggings &
+                  Churidars</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Dress
+                  Materials</a>
+                <hr>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Belts, Scarves & More</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Watches & Wearables</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Western Wear</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Dresses</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Jumpsuits</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Jeans</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Jackets &
+                  Coats</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Shorts &
+                  Skirts</a>
+                <hr>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Plus Size</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Sunglasses & Frames</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Footwear</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Casual
+                  Shoes</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Heels</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Sports
+                  Shoes
+                  & Floaters</a>
+                <hr>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Sports & Active
+                  Wear</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Clothing</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Sports
+                  Accessories</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Sports
+                  Equipment</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Lingerie & Sleepwear</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Bra</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Briefs</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Sleepwear
+                  &
+                  Loungewear</a>
+                <hr>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Beauty & Personal Care</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Makeup</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Skincare</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Lipsticks</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Gadgets</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Smart
+                  Wearables</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active' style="font-size: x-small;">Fitness
+                  Gadgets</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Headphones</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="font-size: x-small;">Speakers</a>
+                <hr>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Jewellery</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Luggages & Trolleys</a>
+                <a class="dropdown-item" routerLink="women" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Handbags, Bags & Wallets</a>
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown headdropdown1">
+          <a class="nav-link dropdown-toggle navtext" routerLink="kids" routerLinkActive='active'
+            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            style="color:black;">
+            KIDS
+          </a>
+          <ul class="dropdown-menu headdown-menu1" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row" style="font-size: small;">
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Boys Clothing</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">T-Shirts</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Shirts</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Shorts</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Jeans</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Trousers</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Clothing
+                  Sets</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Ethnic
+                  Wear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Innerwear
+                  &
+                  Sleepwear</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Girls Clothing</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Dresses</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Tops</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Tshirts</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Clothing
+                  Sets</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Ethnic
+                  wear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Skirts &
+                  shorts</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Jeans,
+                  Trousers & Capris</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Innerwear
+                  &
+                  Sleepwear</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Boys Footwear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Shoes &
+                  Sandals</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Flip
+                  flops</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">School
+                  Shoes</a>
+                <hr>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Girls Footwear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Shoes</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Flip
+                  flops</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Heels</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Infants</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Rompers &
+                  Onesies</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Clothing
+                  Sets</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Tshirts &
+                  Tops</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Dresses</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Bottom
+                  wear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Winter
+                  Wear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Innerwear
+                  &
+                  Sleepwear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Infants
+                  Accessories</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Kids Accessories</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Bags &
+                  Backpacks</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Watches</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Eyewear</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active' style="font-size: x-small;">Hair
+                  Accessories</a>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="font-size: x-small;">Jewellery</a>
+                <hr>
+                <a class="dropdown-item" routerLink="kids" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Home & Bath</a>
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown headdropdown1">
+          <a class="nav-link dropdown-toggle navtext" routerLink="living" routerLinkActive='active'
+            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            style="color:black;">
+            HOME & LIVING
+          </a>
+          <ul class="dropdown-menu headdown-menu1" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row" style="font-size: small;">
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Bed Linen & Furnishing</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Bedding
+                  Sets</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Blankets,
+                  Quilts & Dohars</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Bed
+                  Covers</a>
+                <hr>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Flooring</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="font-size: x-small;">Carpets</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Floor Mats
+                  &
+                  Dhurries</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Door
+                  Mats</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Bath</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Towels
+                  Sets</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Bath
+                  Rugs</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Bathroom
+                  Accessories</a>
+                <hr>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Lamps & Lighting</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Floor
+                  Lamps</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Table
+                  Lamps</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Wall
+                  Lamps</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Home Decor</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Plants &
+                  Planters</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Wall
+                  Shelves</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Aromas &
+                  Candles</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Clocks</a>
+                <hr>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Cushions & Cushion
+                  Covers</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Curtains</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Home Gift Sets</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Kitchen & Table</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Dinnerware
+                  &
+                  Serveware</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Cups and
+                  Mugs</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Kitchen
+                  Storage & Tools</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Table
+                  Covers
+                  & Furnishings</a>
+                <hr>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Storage</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="font-size: x-small;">Organisers</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Hooks &
+                  Holders</a>
+
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Brands</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Bombay
+                  Dyeing</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Spaces</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Portico
+                  New
+                  York</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Raymond
+                  Home</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="font-size: x-small;">Trident</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="font-size: x-small;">Ellementry</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active' style="font-size: x-small;">Random</a>
+                <a class="dropdown-item" routerLink="living" routerLinkActive='active'
+                  style="font-size: x-small;">Corelle</a>
+              </div>
+            </div>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown headdropdown1">
+          <a class="nav-link dropdown-toggle navtext" routerLink="beauty" routerLinkActive='active'
+            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            style="color:black;">
+            BEAUTY
+          </a>
+          <ul class="dropdown-menu headdown-menu1" aria-labelledby="navbarDropdownMenuLink">
+            <div class="row" style="font-size: small;">
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Makeup</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Lipstick</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Lip
+                  Liner</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Kajal</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Foundation</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Primer</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Compact</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Nail
+                  Polish</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Skincare, Bath & Body</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Face
+                  Moisturiser</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Cleanser</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Sunscreen</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Face
+                  Wash</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Eye
+                  Cream</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Body
+                  Scrub</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Lip
+                  Balm</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Haircare</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Shampoo</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Conditioner</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Hair
+                  Accessory</a>
+                <hr>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small; font-size: x-small;">Fragrances</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Perfume</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Deodorant</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Body
+                  Mist</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Appliances</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Hair
+                  Straightener</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Hair
+                  Dryer</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Trimmer</a>
+                <hr>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Men's Grooming</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="font-size: x-small;">Trimmers</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Beard
+                  Oil</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active' style="font-size: x-small;">Hair
+                  Wax</a>
+              </div>
+
+              <div class="col-md-2">
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Beauty Gift & Makeup Set</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Premium Beauty</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Wellness & Hygiene</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Baby Care</a>
+                <a class="dropdown-item" routerLink="beauty" routerLinkActive='active'
+                  style="color: red; font-weight: bold; font-size: x-small;">Masks</a>
+              </div>
+            </div>
+          </ul>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <form class="d-flex">
+          <div class="headbuttonIn">
+            <input class="headinput" type="search" id="search" aria-label="Search"
+              placeholder="Search for products, brands and more"
+              style="width: 300px; height: 30px; font-size: smaller; padding-left: 10px;">
+            <button class="but_ser headbutser" routerLink='search' type="button" id="submit">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items: right;">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle navtext" routerLink="overview" routerLinkActive='active'
+            id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+            style="color:black;">
+            PROFILE
+          </a>
+          <ul class="dropdown-menu headdown-menu1" aria-labelledby="navbarDropdownMenuLink">
+            <b style="font-size: x-small; margin-left: 15px;">Welcome</b>
+            <div id="loggedin" style="display:none;">
+              <span id="login-wish" style="font-size: x-small; margin-left: 15px;">hi</span>
+            </div>
+            <li id="loggedout" style="display:none;">
+              <p style="font-size: x-small; margin-left: 15px;">To access account and manage orders <br></p>
+              <a routerLink="login" routerLinkActive='active'>
+                <button style="color: palevioletred; font-size: x-small; height: 20PX; border: 1px; margin-left: 15px;">
+                  LOGIN / SIGNUP
+                </button>
+              </a>
+            </li>
+
+            <hr>
+            <a class="dropdown-item" routerLink="order" routerLinkActive='active' style="font-size: x-small;">Orders</a>
+            <a class="dropdown-item" routerLink="wishlist" routerLinkActive='active'
+              style="font-size: x-small;">Wishlist</a>
+            <a class="dropdown-item" routerLink="#" routerLinkActive='active' style="font-size: x-small;">Gift Cards</a>
+            <a class="dropdown-item" routerLink="contact-nonorder" routerLinkActive='active'
+              style="font-size: x-small;">Contact Us</a>
+            <hr>
+            <a class="dropdown-item" routerLink="#" routerLinkActive='active' style="font-size: x-small;">Myntra
+              Credit</a>
+            <a class="dropdown-item" routerLink="#" routerLinkActive='active' style="font-size: x-small;">Saved
+              Cards</a>
+            <a class="dropdown-item" routerLink="#" routerLinkActive='active' style="font-size: x-small;">Gift Cards</a>
+            <a class="dropdown-item" routerLink="address" routerLinkActive='active' style="font-size: x-small;">Saved
+              Addresses</a>
+            <hr>
+            <li id='loggedin' style="display:none;">
+              <a class="dropdown-item" routerLink="profile" routerLinkActive='active'
+                style="font-size: x-small;">Profile</a>
+              <a>
+                <button style="color: palevioletred; font-size: x-small; height: 20PX; border: 1px; margin-left: 20px;"
+                  id="logout">
+                  Log Out
+                </button>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active navtext" aria-current="page" routerLink="wishlist" routerLinkActive='active'
+            style="color: black;">
+            WISHLIST
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active navtext" aria-current="page" routerLink="cart" routerLinkActive='active'
+            style="color: black;">
+            BAG
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light navbar2" style="z-index: 99;">
+    <div class="container-fluid">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <a style="font-size:30px;cursor:pointer" id="openNav">&#9776;</a>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <form class="d-flex">
+          <div class="headbuttonIn1">
+            <input class="headinput" type="search" id="search1" aria-label="Search" placeholder="Search"
+              style="width: 100px; height: 30px; font-size: x-small; padding-left: 30px;">
+            <button class="but_ser headbutser1" routerLink='search' type="button" id="submit1">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search"
+                viewBox="0 0 16 16">
+                <path
+                  d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+              </svg>
+            </button>
+          </div>
+        </form>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items: right;">
+        <li class="nav-item">
+          <a class="nav-link active navtext" aria-current="page" routerLink="/profile" routerLinkActive='active'
+            style="color: black;">PROFILE</a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items: right;">
+        <li class="nav-item">
+          <a class="nav-link active navtext" aria-current="page" routerLink="wishlist" routerLinkActive='active'
+            style="color: black;">
+            WISHLIST
+          </a>
+        </li>
+      </ul>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="align-items: right;">
+        <li class="nav-item">
+          <a class="nav-link active navtext" aria-current="page" routerLink="cart" routerLinkActive='active'
+            style="color: black;">
+            BAG
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" id="closeNav">&times;</a>
+    <a style="font-size: medium; color: white;">Welcome</a>
+    <a id="loggedin" style="display:none;"><span id="login-wish1" style="font-size: medium; color: white;">hi</span></a>
+    <a id="loggedout" style="display:none;" style="font-size: small; color: white;">To access account and manage
+      orders</a>
+    <a routerLink="login" id="loggedout" style="display:none; font-size: medium; color: #817756;">
+      LOGIN / SIGNUP
+    </a>
+    <span id="loggedin" style="display:none;">
+      <a style="font-size: medium; color: #817756;" id="logout1">Log Out</a>
+    </span>
+    <hr style="border-top: 1px solid grey; width: 90%; margin: 5px auto;">
+    <a routerLink="home" style="font-size: medium; color: white;">HOME
+      <!-- <img src="assets\images\myntra_logo1.png" alt="myntra" style="height: 30px;"> -->
+    </a>
+    <a routerLink="men" style="font-size: medium; color: white;">MEN</a>
+    <a routerLink="women" style="font-size: medium; color: white;">WOMEN</a>
+    <a routerLink="kids" style="font-size: medium; color: white;">KID</a>
+    <a routerLink="living" style="font-size: medium; color: white;">HOME & LIVING</a>
+    <a routerLink="beauty" style="font-size: medium; color: white;">BEAUTY</a>
+    <hr style="border-top: 1px solid grey; width: 90%; margin: 5px auto;">
+    <a routerLink="overview" style="font-size: medium; color: white;">Overview</a>
+    <a routerLink="order" style="font-size: medium; color: white;">Orders & Returns</a>
+    <a routerLink="profile" style="font-size: medium; color: white;">Profile</a>
+    <a routerLink="#" style="font-size: medium; color: white;">Saved Cards</a>
+    <a routerLink="address" style="font-size: medium; color: white;">Addresses</a>
+  </div>
+  <!-- <a style="font-size:30px;cursor:pointer" id="openNav">&#9776; open</a> -->
+
+  <div class="row">
+    <div class="col-md-12 headmain1" id='search-rev'>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+::placeholder {
+    color: #8E8E8E;
+    font-size: small;
+}
+.signupbut{
+    background-color: #FF3F6C;
+    width: 100%;
+}
+.signupbut:thover{
+    background-color: #FF3F6C;
+    border-style: none;
+}

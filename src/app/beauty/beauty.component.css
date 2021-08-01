@@ -1,0 +1,129 @@
+.beah5{
+    font-size: medium;
+}
+
+.beamain1 {
+    display: grid;
+    max-width: 1200px;
+    grid-gap: 1rem;
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 25px;
+}
+
+.beamain2 {
+    display: grid;
+    max-width: 1200px;
+    grid-gap: 1rem;
+    width: 100%;
+    margin: 0px auto;
+    padding-left: 25px;
+}
+
+.beasub1{
+    width: 300px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.beasub2{
+    width: 250px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.beahead1{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: orangered; 
+    color: white; 
+    height: 30px; 
+    width: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    z-index: 30;
+}
+
+
+.beahead2{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    background-color: orangered; 
+    color: white; 
+    height: 30px; 
+    width: 100px;
+    padding-left: 10px;
+    padding-top: 5px;
+    border-top-right-radius: 15px; 
+    border-bottom-right-radius: 15px;
+    z-index: 30;
+}
+
+.beaimg1{
+    border-radius: 10px;
+    width: 250px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin: 5px 25px;
+    z-index: 10;
+}
+
+.beaimg2{
+
+    border-radius: 10px;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin: 5px 25px;
+    z-index: 10;
+}
+/*
+@media (min-width: 450px) {
+    .divmain1 { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 700px) {
+    .divmain1  { grid-template-columns: repeat(3, 1fr); }
+}
+*/
+
+@media (min-width: 100px) {
+    .beamain1  { grid-template-columns: repeat(1, 1fr); }
+}
+@media (min-width: 650px) {
+    .beamain1  { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 1050px) {
+    .beamain1  { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 350px) {
+    .beamain2  { grid-template-columns: repeat(1, 1fr); }
+}
+
+@media (min-width: 570px) {
+    .beamain2  { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (min-width: 900px) {
+    .beamain2  { grid-template-columns: repeat(4, 1fr); }
+    .beasub2 { width: 200px; margin: 0px auto; position: relative; }
+    .beaimg2{ border-radius: 10px; width: 150px; margin-top: 5px; margin-bottom: 5px; margin-right: 25px;
+           margin-left: 25px; margin: 5px 25px; z-index: 10; }
+}
+
+@media (min-width: 1100px) {
+    .beamain2  { grid-template-columns: repeat(4, 1fr); }
+    .beasub2 { width: 250px; margin: 0px auto; position: relative; }
+    .beaimg2{ border-radius: 10px; width: 200px; margin-top: 5px; margin-bottom: 5px; margin-right: 25px;
+           margin-left: 25px; margin: 5px 25px; z-index: 10; }
+}

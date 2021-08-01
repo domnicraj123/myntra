@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+/*@import 'aos/dist/aos.css';*/
+/*@import "~bootstrap/dist/css/bootstrap.min.css";*/
+
+
+.navtext{
+    font-size: small; 
+    font-weight: bolder;
+}
+

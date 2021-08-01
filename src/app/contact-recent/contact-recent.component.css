@@ -1,0 +1,12 @@
+.recenta{ text-decoration: none; color: black; }
+.recenth6{ font-size: small; }
+.recentp{ font-size: xx-small; }
+
+@media (min-width: 100px) {
+    .recentprofile{ width: 80%; margin: auto;}
+    .recentrow1{text-align: center;}
+}
+@media (min-width: 750px){
+    .recentprofile{ width: 65%; margin: auto; }
+    .recentrow1{border-right: 1px solid grey; text-align: left;}
+}

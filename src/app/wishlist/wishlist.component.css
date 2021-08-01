@@ -1,0 +1,69 @@
+.divmain1 {
+    display: grid;
+    max-width: 1200px;
+    grid-gap: 1rem;
+    width: 100%;
+    margin: 0px auto;
+}
+.divsub1{
+    margin: 0px auto;
+}
+.img2{
+    border-radius: 10px;
+    z-index: 10;
+}
+.img3{
+    position: relative;
+}
+.wish{
+    position: relative;
+    border-radius: 10px;
+    top: -27px;
+    left: 0px;
+    z-index: 99;
+}
+.dress{
+    text-align: center; 
+    margin-top: -20px;
+}
+.btnclose {
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    line-height: 1;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+}
+
+@media (min-width: 100px) {
+    .divmain1 { grid-template-columns: repeat(2, 1fr); }
+    .divsub1,.img2,.img3,.wish{ width: 100px;}
+    h4{ font-size: medium; }
+    h1{ font-size: x-large; }
+    h3{ font-size: large; }
+    .wish{ font-size: small; }
+}
+@media (min-width: 450px) {
+    .divsub1,.img2,.img3,.wish{ width: 150px; }
+    h4{ font-size: large; }
+    h1{ font-size: xx-large; }
+    h3{ font-size: x-large; }
+    a.add-to-wish{  opacity: 0; }
+    .img3:hover  a.add-to-wish { display: inline-block; opacity: 1; }
+}
+  
+@media (min-width: 700px) {
+    .divmain1  { grid-template-columns: repeat(3, 1fr); }
+}
+  
+@media (min-width: 850px) {
+    .divmain1  { grid-template-columns: repeat(4, 1fr); }
+}
+  
+@media (min-width: 1050px) {
+    .divmain1  { grid-template-columns: repeat(5, 1fr); }
+}

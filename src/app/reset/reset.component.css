@@ -1,0 +1,12 @@
+::placeholder {
+    color: #8E8E8E;
+    font-size: small;
+}
+.resetbut{
+    background-color: #FF3F6C;
+    width: 100%;
+}
+.resetbut:hover{
+    background-color: #FF3F6C;
+    border-style: none;
+}

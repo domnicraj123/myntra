@@ -1,0 +1,20 @@
+.faqa{ text-decoration: none; color: black; }
+
+@media (min-width: 100px) {
+    .faqprofile{ width: 80%; margin: auto;}
+}
+@media (min-width: 750px){
+    .faqprofile{ width: 100%; margin: auto; }
+}
+
+/* .faqSection-link { */
+    /* overflow: hidden; */
+    /* padding-bottom: 5px;
+    border-bottom: 1px dotted #ccc;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.faqSection-links {
+    float: right;
+} */

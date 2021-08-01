@@ -1,0 +1,142 @@
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <button class="nav-link" aria-current="page" id="proadd" style="background-color: gray; color: white;">Add</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" id="proedit" style="background-color: transparent;">Edit</button>
+        </li>
+        <li class="nav-item">
+          <button class="nav-link" id="prodel" style="background-color: transparent;">Delete</button>
+        </li>
+    </ul>
+    <br>
+    <form id="add-product">
+        <div class="row">
+            <div class="col-md-3">
+                <p>collection</p>
+            </div>
+            <div class="col-md-9">
+                <select id="proadd-collection" style="background-color: rgb(245, 245, 234);">
+                    <option value="men">Men</option>
+                    <option value="women">Women</option>
+                    <option value="kids">Kid</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Product ID</p>
+            </div>
+            <div class="col-md-9">
+                <input type="number" id="proadd-id" style="width: 80%; background-color: rgb(245, 245, 234);">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Product Name</p>
+            </div>
+            <div class="col-md-9">
+                <input type="text" id="proadd-name" style="width: 80%; background-color: rgb(245, 245, 234);">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Price</p>
+            </div>
+            <div class="col-md-9">
+                <input type="number" id="proadd-price" style="width: 80%; background-color: rgb(245, 245, 234);">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <p>Image path</p>
+            </div>
+            <div class="col-md-9">
+                <input type="text" id="proadd-img" style="width: 80%; background-color: rgb(245, 245, 234);">
+            </div>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-dark">Add Product</button>
+        <br><br>
+    </form>
+    <form id="edit-product" style="display:none;">
+        <div class="row">
+            <div class="col-md-3">
+                <p>Collection</p>
+            </div>
+            <div class="col-md-3">
+                <select id="proedit-collection" style="background-color: rgb(245, 245, 234);">
+                    <option value="men">Men</option>
+                    <option value="women">Women</option>
+                    <option value="kids">Kid</option>
+                </select>
+            </div>
+            <!-- <div class="col-md-3">
+                <p>Search By</p>
+            </div>
+            <div class="col-md-3">
+                <select id="proedit-ser" style="background-color: rgb(245, 245, 234);">
+                    <option value="id">Product ID</option>
+                    <option value="women">Product Name</option>
+                </select>
+            </div> -->
+        </div>
+        <hr>
+    </form>
+    <table id='proedit-table' style='display: none;'>
+
+    </table>
+
+    <dialog id="myDialog">
+        <form id="diaform">
+            <div class="row">
+                <div class="col-md-5">Product ID</div>
+                <div class="col-md-7"><input type="number" id="prodia-id" style="width: 80%;"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">Product Name</div>
+                <div class="col-md-7">
+                    <input type="text" id="prodia-name" style="width: 80%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">Product Price</div>
+                <div class="col-md-7">
+                    <input type="number" id="prodia-price" style="width: 80%;">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">Image Path</div>
+                <div class="col-md-7">
+                    <input type="text" id="prodia-img" style="width: 80%;">
+                </div>
+            </div>
+            <br>
+            <div style='width: 100%; text-align: right;'>
+                <button class='btn btn-danger' id='diaclose' type="button">close</button>&nbsp;
+                <button class='btn btn-success' type="submit">submit</button>
+            </div>
+        </form>
+    </dialog>
+
+    <form id="del-product" style="display:none;">
+        <div class="row">
+            <div class="col-md-3">
+                <p>Collection</p>
+            </div>
+            <div class="col-md-3">
+                <select id="prodel-collection" style="background-color: rgb(245, 245, 234);">
+                    <option value="men">Men</option>
+                    <option value="women">Women</option>
+                    <option value="kids">Kid</option>
+                </select>
+            </div>
+        </div>
+        <hr>
+    </form>
+    <table id='prodel-table' style='display: none;'>
+
+    </table>
+    <br>
+</div>

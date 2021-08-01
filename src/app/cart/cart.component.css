@@ -1,0 +1,43 @@
+.cartcard{
+    margin: 5px 20px;
+}
+.cartp3{
+    color: red;
+}
+.cartplace{display: flex; justify-content: center; align-items: center;}
+#cartplace{display: flex; justify-content: center; align-items: center;}
+.cartimg2{
+    border-radius: 10px;
+    z-index: 10;
+    display: block; 
+    margin: 5px auto;
+}
+.cartleft {
+    width:50%;
+    text-align:left;
+}
+.cartright {
+    text-align:right;
+    line-height: 0.1;
+}
+.cartbutgap{
+    margin-right: 10px;
+}
+.cartorder{
+    background-color: palevioletred;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    border: 1px solid black;
+    z-index: 99;
+}
+
+@media (min-width: 100px) {
+    .cartimg2{ width: 100px; }
+}
+@media (min-width: 375px) {
+    .cartimg2{ width: 125px; }
+}
+@media (min-width: 768px){
+    .cartimg2{ width: 150px; }
+}

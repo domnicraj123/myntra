@@ -1,0 +1,26 @@
+.adda{ text-decoration: none; color: black; }
+.addh6{ font-size: small; }
+.addp{ font-size: small; }
+
+.addcard{
+    width: 90%; 
+    margin: 0 auto; 
+    border: 1px solid grey;
+}
+
+@media (min-width: 100px) {
+    .addprofile{ width: 80%; margin: auto;}
+}
+@media (min-width: 750px){
+    .addprofile{ width: 65%; margin: auto; }
+}
+@media (min-width:100px){
+    .addrow1{ display: none; }
+    .web{ display: none; }
+    .mob{ display: block; }
+}
+@media (min-width:1000px){
+    .addrow1{ display: block; text-align: center; border-right: 1px solid grey; text-align: left;}
+    .web{ display: inline; }
+    .mob{ display: none; }
+}

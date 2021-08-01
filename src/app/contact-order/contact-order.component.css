@@ -1,0 +1,12 @@
+.orda{ text-decoration: none; color: black; }
+.ordh6{ font-size: small; }
+.ordp{ font-size: xx-small; }
+
+@media (min-width: 100px) {
+    .ordprofile{ width: 80%; margin: auto;}
+    .ordrow1{text-align: center;}
+}
+@media (min-width: 750px){
+    .ordprofile{ width: 65%; margin: auto; }
+    .ordrow1{border-right: 1px solid grey; text-align: left;}
+}

@@ -1,0 +1,42 @@
+.divlivimg{ 
+    margin-left: 7%; 
+}
+.divlivtext{ 
+    margin-right: 7%;
+    display: grid;
+    align-items: center;
+    background-color: rgb(250,250,250);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: -10%;
+}
+
+.imgliv1{
+    border-radius: 10px;
+    width: 90%;
+    height: 250px;
+    margin: 5px 5%;
+}
+
+.divliv1{
+    display: grid;
+    grid-gap: 1rem;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.divliv2{
+    width: 100%;
+    margin: 0px auto;
+}
+
+@media (min-width: 800px){
+    .divliv1  { grid-template-columns: repeat(1, 1fr);}
+    p{line-height: 0.8;}
+}
+
+@media (min-width: 887px){
+    
+    .divliv1  { grid-template-columns: repeat(2, 1fr);}
+    p{line-height: 0.1;}
+}

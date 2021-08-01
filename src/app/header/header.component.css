@@ -1,0 +1,197 @@
+.dropdown-item.active, .dropdown-item:active {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(242,242,242);
+}
+
+.headdropdown1 {
+    position:static !important;
+
+}
+.headdown-menu1 {
+	box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)!important;
+	margin-top:-10px !important;
+    margin-left: 10%;
+	width:80% !important;
+}
+.dropdown-toggle::after { 
+    content: none; 
+}
+
+.col-md-2{
+    margin: auto;
+}
+
+ul li ul.dropdown-menu {
+    /*min-width: 100%;  Set width of the dropdown */
+    background: #f2f2f2;
+    display: none;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown-menu {
+    display: block; /* Display the dropdown */
+}
+
+ul li ul.dropdown a {
+    display: block;
+}
+
+.headmain1 {
+    display: grid;
+    max-width: 1200px;
+    grid-gap: 1rem;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.headsub1{
+    margin: 0px auto;
+}
+
+.headimg2{
+    border-radius: 10px;
+    z-index: 10;
+}
+
+
+
+.headwish{
+    position: relative;
+    border-radius: 10px;
+    top: -27px;
+    left: 0px;
+    z-index: 99;
+}
+
+.headdress{
+    margin-top: -30px;
+    text-align: center;
+}
+a.headadd-to-wish{
+    opacity: 1;
+}
+
+.headimg3:hover  a.headadd-to-wish {
+    display: inline-block;
+    opacity: 1;
+    /* Display the dropdown */
+}
+
+/*  */
+
+.headbuttonIn {
+    width: 300px;
+    position: relative;
+}
+.headbuttonIn1 {
+    width: 100px;
+    position: relative;
+}
+ 
+.headinput {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.headbutser {
+    position: absolute;
+    top: -2px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    transform: translateX(2px);
+    outline: none !important;
+}
+
+.headbutser1 {
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    z-index: 2;
+    border: none;
+    height: 30px;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;
+    transform: translateX(2px);
+    outline: none !important;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+@media (min-width: 100px) {
+    .headmain1 { grid-template-columns: repeat(2, 1fr); }
+    .headimg2{width: 100px; height: 130px; }
+    .img3{width: 100px;}
+    .headwish{ width: 100px; font-size: small; }
+    .headsub1{width: 100px;}
+}
+
+@media (min-width: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    .headwish{ width: 150px; }
+    .headsub1{ width: 150px; }
+    .headimg2{ width: 150px; height: 200px; }
+}
+
+@media (min-width: 700px) {
+    .headmain1  { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 850px) {
+    .headmain1  { grid-template-columns: repeat(4, 1fr); }
+}
+
+@media (min-width: 1050px) {
+    .headmain1  { grid-template-columns: repeat(5, 1fr); }
+}
+@media (max-width:1000px){
+    .navbar1{display: none;}
+    .navbar2{display: block;}
+}
+@media (min-width:1000px){
+    .navbar1{display: block;}
+    .navbar2{display: none;}
+}

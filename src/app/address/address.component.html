@@ -1,0 +1,110 @@
+<br><br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8" class="addprofile">
+            <h5 class='web'>Account</h5>
+            <h5 class='mob'>Address</h5>
+            <hr>
+            <div class="row">
+                <div class="col-md-3 addrow1">
+                    <a routerLink="/overview" routerLinkActive = 'active' class="adda"><h6 class="addh6">Overview</h6></a>
+                    <hr>
+                    <h6 style="font-weight: lighter;" class="addh6">ORDERS</h6>
+                    <a routerLink="/order" routerLinkActive = 'active' class="adda"><h6 class="addh6">Orders & Returns</h6></a>
+                    <hr>
+                    <h6 style="font-weight: lighter;" class="addh6">ACCOUNTS</h6>
+                    <a routerLink="/profile" routerLinkActive = 'active' class="adda"><h6 class="addh6">Profile</h6></a>
+                    <a routerLink="#" routerLinkActive = 'active' class="adda"><h6 class="addh6">Saved Cards</h6></a>
+                    <a routerLink="/address" routerLinkActive = 'active' style="color: lightgreen;"><h6 class="addh6">Addresses</h6></a>
+                    <a routerLink="#" routerLinkActive = 'active' class="adda"><h6 class="addh6">Myntra Insider</h6></a>
+                    <hr>
+                    <h6 style="font-weight: lighter;" class="addh6">LEGAL</h6>
+                    <a routerLink="/terms" routerLinkActive = 'active' class="adda"><h6 class="addh6">Terms of Use</h6></a>
+                    <a routerLink="/policy" routerLinkActive = 'active' class="adda"><h6 class="addh6">Privacy Policy</h6></a>
+                </div>
+                <div class="col-md-9" id="loggedin" style="display:none;">
+                    <div class="divmain1" style="border: 1px solid black">
+                        <br>
+                        <div class="card addcard" id="card1" style="width: 90%; margin: 0 auto; border: 1px solid grey; display: none;">
+                            <div class="card-body">
+                                <h5 class="card-title" id="h1"></h5>
+                                <p class="card-text addp" id="p1"></p>
+                                <div id="div_but1" style="width:100%; text-align: center;">
+                                    <button class="btn btn-secondary" id="but_del1">delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br id="br1" style="display:none;">
+                        <div class="card addcard" id="card2" style="width: 90%; margin: 0 auto; border: 1px solid grey; display: none">
+                            <div class="card-body">
+                                <h5 class="card-title" id="h2"></h5>
+                                <p class="card-text addp" id="p2"></p>
+                                <div id="div_but2" style="width:100%; text-align: center;">
+                                    <button class="btn btn-secondary" id="but_del2">delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br id="br2" style="display:none;">
+                        <div class="card" id="card3" style="width: 90%; margin: 0 auto; border: 1px solid grey; display: none;">
+                            <div class="card-body">
+                                <h5 class="card-title" id="h3"></h5>
+                                <p class="card-text addp" id="p3"></p>
+                                <div id="div_but3" style="width:100%; text-align: center;">
+                                    <button class="btn btn-secondary" id="but_del3">delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br id="br3" style="display:none;">
+                        <div class="card addcard" id="card4" style="width: 90%; margin: 0 auto; border: 1px solid grey;display: none;">
+                            <div class="card-body">
+                                <h5 class="card-title" id="h4"></h5>
+                                <p class="card-text addp" id="p4"></p>
+                                <div id="div_but4" style="width:100%; text-align: center;">
+                                    <button class="btn btn-secondary" id="but_del4">delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br id="br4" style="display:none;">
+                        <div class="card addcard" id="card5" style="width: 90%; margin: 0 auto; border: 1px solid grey;display: none;">
+                            <div class="card-body">
+                                <h5 class="card-title" id="h5"></h5>
+                                <p class="card-text addp" id="p5"></p>
+                                <div id="div_but5" style="width:100%; text-align: center;">
+                                    <button class="btn btn-secondary" id="but_del5">delete</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br id="br5" style="display:none;">
+                        <div style="text-align: center;">
+                            <button id="add-address" class="btn btn-primary">Add Address</button>
+                        </div>
+                        <br>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-9" id="divadd" style="display:none;">
+                    <form id="address-form">
+                        <div class="row">
+                            <div class="col-md-10" style="margin: 0% auto;">
+                                <div class="form-group">
+                                    <label for="address-name" style="font-weight: 500; font-size: small;">Name of the Address</label>
+                                    <input type="text" id="address-name" class="form-control" placeholder="Enter Name of the Address" style="width: 100%; height: 30px;">
+                                </div>
+                                <div class="form-group">
+                                    <label for="address-add" style="font-weight: 500; font-size: small;">Address</label>
+                                    <input type="text" id="address-add" class="form-control" placeholder="Enter Address" style="width: 100%; height: 30px;">
+                                </div>
+                                <button type="submit" class="btn btn-primary">
+                                    <span style="color: white; text-decoration: none; font-weight: bold;">
+                                        add
+                                    </span>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
